@@ -70,8 +70,72 @@ zh:
   BUTTON_PAY: 支付
   BUTTON_UPDATE: 更新
   BUTTON_EDIT: 编辑
+  BUTTON_CONFINE_MOUSE: 限制鼠标在窗口区域
+  BUTTON_SHOW_STUDIO: 显示工作室
+  BUTTON_CANCEL_GAME: 取消游戏
 
   # Labels, descriptive
+  TOOLTIP_GAME_UPDATE_EXPECTATION: |
+    选择需要更新的功能，以满足玩家的期望。
+  TOOLTIP_UPGRADE_OLD_GAMEENGINE: |
+    更新游戏引擎时，会有惩罚。只会影响产生的点数。
+  LABEL_TOO_MUCH_TIME_SPENT: |
+    要么你的开发团队不够平衡，
+    要么你在%s上花费的时间比其他开发阶段多了很多。
+  LABEL_NOT_ENOUGH_TIME_SPENT: |
+    要么你的开发团队不够平衡，
+    要么你的开发团队与其他开发阶段相比，在%s上花费的时间不够多。
+  LABEL_WARNING_THEME_MISSING: 请选择一个主题
+  LABEL_BUYABLE: 可买的
+  LABEL_IAP_ADD_MICROTRANSATION: >
+    通过单击蓝色按钮添加微交易。
+  LABEL_NUMBER_OF_NEW_PLAYERS: 新玩家人数
+  LABEL_NUMBER_OF_RETURNING_PLAYERS: 回归玩家数
+  LABEL_NUMBER_OF_PLAYER_LOST: 流失的玩家人数
+  LABEL_FEATURE_REQUIRED: >
+    此功能需要以下游戏引擎模块：
+  LABEL_ESTIMATED_INCOME: 预计收益
+  LABEL_ADS_WARNING: >
+    使用广告时要小心。
+    广告会影响用户保留率。
+  LABEL_IAP_WARNING: >
+    购买游戏的玩家不喜欢看到广告或在微交易上花钱。
+  LABEL_IAP_NAME: 在应用程序内购买
+  LABEL_IAP_PACK: "包 #%d"
+  LABEL_IAP_TYPE_POWER_BOOST: 功率提升
+  LABEL_IAP_POWER: 功率因数
+  LABEL_IAP_TYPE_COSMETIC: 化妆品
+  LABEL_IAP_TYPE_LOOTBOX: 战利品箱子
+  LABEL_IAP_LIST: 项目清单
+  LABEL_IAP_RARITY: 稀有度
+  LABEL_IAP_RARITY_UNCOMMON: 不常
+  LABEL_IAP_RARITY_RARE: 罕见
+  LABEL_IAP_RARITY_EPIC: 史诗
+  LABEL_IAP_RARITY_LEGENDARY: 传奇的
+  LABEL_FINANCIAL_DETAILS: 财务细节
+  LABEL_AD_NAME: 广告
+  LABEL_AD_POPUP: 广告弹出窗口
+  LABEL_AD_BANNER: 广告横幅
+  LABEL_NUMBER_OF_PLAYER: 玩家人数
+  LABEL_GAME_ENGINE_LIST: 游戏引擎清单
+  LABEL_THEME_LIST: 主题清单
+  LABEL_GAME_ANNOUNCEMENT: 游戏公告
+  LABEL_CONVENTION_MESSAGE: 游戏惯例
+  LABEL_NO_FILTER: 没有过滤器
+  LABEL_GAME_UPDATE_EXPECTED: 等待更新
+  LABEL_GAME_UPDATE_NOTEXPECTED: 不等待更新
+  LABEL_MARKETING_CAMPAIGN_ACTIVE: 积极的营销活动
+  LABEL_MARKETING_CAMPAIGN_INACTIVE: 没有有效的营销活动
+  LABEL_FANBASE_GAIN: 不断增长的粉丝群
+  LABEL_FANBASE_LOSS: 粉丝人数下降
+  LABEL_MONEY_MAKER: 有利可图
+  LABEL_MONEY_LOSER: 不盈利
+  LABEL_SELECT_ALL: 全选
+  LABEL_FREE_GAME: 免费的
+  LABEL_SUBSCRIPTION_PRICE: 认购价
+  LABEL_GAME_PRICE: 游戏价格
+  LABEL_UPDATE_PRICE: 游戏更新价格
+  LABEL_X_STUDIOS: "%d间工作室"
   LABEL_RANDOM_SLIDER: 随机游戏设置
   LABEL_DISCOUNT: 打折
   LABEL_ORGANIZE_YEARLY: 组织一次展会
@@ -105,8 +169,8 @@ zh:
   LABEL_GAMEENGINE_LIST: >
     市场上可用的游戏引擎列表
   LABEL_FOSS: 免费和开源软件
-  LABEL_PROPRIETARY: 所有权
-  LABEL_OWNER: 所有者
+  LABEL_PROPRIETARY: 所有者
+  LABEL_OWNER: 内部
   LABEL_PLATFORM_GPU_CAPABILITY: 图形功能
   LABEL_PLATFORM_CPU_CAPABILITY: 计算能力
   LABEL_PLATFORM_GPU_COSTS: 图形费用
@@ -135,6 +199,8 @@ zh:
   LABEL_GAMEENGINE_DESCRIPTION_0: >
     您现在可以创建自己的游戏引擎。
     游戏引擎可提高员工产生的积分数量。
+  LABEL_GAME_ENGINE_ADS: 广告模块
+  LABEL_GAME_ENGINE_IAP: 微交易模块
   LABEL_GAME_ENGINE_2D_1BITCOLOR: "2D图形学单色"
   LABEL_GAME_ENGINE_2D_8BITCOLOR: "2D图形学8位色"
   LABEL_GAME_ENGINE_2D_16BITCOLOR: "2D图形学16位色"
@@ -386,7 +452,7 @@ zh:
   LABEL_EDIT_GAME_ANNOUNCE_BAD: |
     有谣言流传说似乎%s对他们与%s做的交易不满意
   LABEL_REQUIRE_EMPLOYEE: |
-    在一个工作室中需要%d名员工
+    需要%d名员工。
     在一个工作室中需要%d制片人
   LABEL_STUDIO_NOT_BALANCED: >
     检查你的工作室团队。这个工作室不制作同样多的设计/开发元素或润色。
@@ -511,11 +577,11 @@ zh:
   LABEL_COMPANY_WIDE: 公司范围
   LABEL_STUDIO_WIDE: 此工作室
   LABEL_NO_STUDIO_TRADE_CAPABLE: >
-    你必须至少有3人在工作室工作才能对发行商的开价作出申请。
+    你必须至少有5人工作才能对发行商的开价作出申请。
   LABEL_TRADE_GAME_CANCELED_TITLE: "%s已取消"
   LABEL_TRADE_GAME_CANCELED_DESCRIPTION: |
     对于 [b]%s[/b] (%s)，
-
+    
     我们非常失望地知道你取消了[b]%s[/b]的开发。
     根据正式签署的合同条款中的第453页，第72d段，W段，粉红页，你必须支付违约金[b]%s$[/b] ，请尽快将款项交付与我们。  此致，  诚实的律师事务所。
 
@@ -1216,9 +1282,8 @@ zh:
   PLACEHOLDER_GAME_NAME: 游戏名称
   PLACEHOLDER_PLAYER_NAME: 你的姓名
   LABEL_VERSION_BETA: 测试版
-  LABEL_BREAK_LAW: |
+  LABEL_BREAK_LAW: >
     你即将违法。
-
     你想继续吗？
   LABEL_SUCCESS: 成功
   LABEL_FAILURE: 失败
@@ -1240,7 +1305,7 @@ zh:
   TOOLTIP_MATCH_GOOD: 适合得不错
   TOOLTIP_MATCH_OK: 适合得一般般
   TOOLTIP_MATCH_POOR: 非常不适合
-  TOOTIP_STUDIO_HAPPINESS: |
+  TOOTIP_STUDIO_HAPPINESS: >
     畅销游戏
   TOOLTIP_TOPSALES: |
     游戏销量排行榜
